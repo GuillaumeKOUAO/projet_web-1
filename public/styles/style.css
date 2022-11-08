@@ -1,0 +1,335 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* <!-- Test ajout background_Guillaume (04/11)--> */
+    background: #eee;
+}
+
+#sous-header1 {
+    display: flex;
+    position:fixed;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    padding-top: 5px;
+    
+}
+
+#sous-header1 a img {
+    display: block;
+    max-height: 80px;
+    max-width: 80px;
+    padding-left: 20px;
+}
+
+#toolbar1 {
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+    background-color: white;
+}
+
+#banniere {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position:initial;
+    margin-top:80px;
+}
+
+#titre-banniere {
+    padding-top: 10px;
+    font-family:sans-serif;
+    font-style:italic;
+    margin: unset;
+    font-size: 40px;
+}
+
+#parag-banniere {
+    margin-top: 5px;
+    font-family:sans-serif;
+    font-style:italic;
+}
+
+#main-menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 20px 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+
+#main-menu li {
+    width: 130px;
+    margin-left: 10px;
+    font-size: 1em;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-menu li a {
+    color:black;
+}
+
+#main-menu li.selected {
+    background-color: rgb(62, 223, 188);
+    border-radius: 10px;
+}
+
+#main-menu li a:link {
+    text-decoration: none;
+}
+
+#main-menu li a:visited {
+    color:rgb(43, 41, 41)
+}
+
+#main-menu li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#main-menu li a:focus {
+    font-weight: bold;
+}
+
+#main-menu li a:active {
+    font-weight: bold;
+}
+
+.space-toolbar1 {
+    width:30px;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+#panier {
+    height: 30px;
+    width: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#user {
+    color: black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#login-logout {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    padding-right: 20px;
+}
+
+
+
+#toolbar2 {
+   padding-right: 25px;
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.menu-produits {
+    width: 160px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    background-color: rgb(87, 159, 159);
+    border-style: none;
+    box-shadow: 2px 2px 1px rgb(70, 60, 60);
+}
+
+.space-toolbar2 {
+    width: 70px;
+}
+
+.menu-produits:link {
+    text-decoration: none;
+}
+
+.menu-produits:visited {
+    color:rgb(43, 41, 41)
+}
+
+.menu-produits:hover {
+    color: antiquewhite;
+}
+
+.menu-produits:focus {
+    font-weight: bold;
+}
+
+.menu-produits:active {
+    font-weight: bold;
+}
+
+#recherche {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+#searchbar {
+    font-style: italic;
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* <!-- suppression de l'effet "bordure"_GKO (04/11)--> */
+    outline: none; border:none;
+}
+
+#bouton-recherche {
+    background-color: rgb(0, 0, 0);
+    width: 130px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;border-style: none;
+    color:antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shop-articles {
+    display:flex;
+    justify-content: center;
+}
+
+.pub {
+    width: 280px;
+    margin:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: blue;
+}
+
+.pub h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.pub p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width:auto;
+}
+
+.pub img {
+    width: 200px;
+    height:200px;
+    align-self: auto;
+}
+
+
+section { 
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte {
+    display:block;
+    width: 250px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 2px 1px rgb(70, 60, 60);
+    background-color: rgb(237, 237, 245);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carte h1 {
+    padding-top: 5px;
+}
+
+.carte p {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.carte img {
+    width:150px;
+    height: 150px;
+}
+
+.détail-article {
+    display:flex;
+    margin:none;
+    font-size: 11px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.choix-qté {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.choix-qté img {
+    margin-top: 20px; 
+}
+
+#texte-qté {
+    display: block;
+    background-color: rgb(162, 151, 151);
+    color: rgb(70, 63, 63);
+    width:40px;
+    height:5%;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.choix-qté input {
+    width:20%;
+    height: 5%;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#bouton-cde {
+    margin-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    color:white;
+    background-color: black;
+}
+/* <!-- insertion CSS Guillaume pour test sur partie sucré "ai changé l'id du compte user juste pour indiquer la répartition des pages--> */
+/* <!-- ai changé l'id du compte user juste pour indiquer la répartition des pages--> */
+
+
+
+ 
