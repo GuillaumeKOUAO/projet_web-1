@@ -15,9 +15,14 @@
 
 <body>
 <?php renderTemplate('header-contents.php', array('selected' => 'Boutique')); ?>
-<section class="shop">
-    <nav class="shop-menu"></nav>    
-    <article class="shop-articles"></article>
-</section>
+<?php $selectedProducts = findAllProducts(); ?>
+<div class="carte">
+    <?php foreach ($selectedProducts as $product) {
+        renderTemplate('catalog.php', $product);
+    }
+    ?>
+</div>
+
+
 </body>
 </html>

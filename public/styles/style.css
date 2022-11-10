@@ -1,4 +1,11 @@
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+
 body {
+    
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -7,8 +14,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    /* <!-- Test ajout background_Guillaume (04/11)--> */
-    background: #eee;
+    background: rgb(234, 227, 227);
 }
 
 #sous-header1 {
@@ -130,7 +136,7 @@ nav a:link {
     text-align: center;
 }
 
-#login-logout {
+#login-out {
     height: 40px;
     width: 40px;
     margin-left: 5px;
@@ -202,7 +208,6 @@ nav a:link {
     border-radius: 10px;
     border-width: 1px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* <!-- suppression de l'effet "bordure"_GKO (04/11)--> */
     outline: none; border:none;
 }
 
@@ -226,7 +231,7 @@ nav a:link {
     margin:10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: blue;
+    text-align: center;
 }
 
 .pub h1 {
@@ -243,9 +248,8 @@ nav a:link {
 .pub img {
     width: 200px;
     height:200px;
-    align-self: auto;
+    margin-top: 15px;
 }
-
 
 section { 
     flex-grow: 1;
@@ -257,7 +261,7 @@ section {
 .carte {
     display:block;
     width: 250px;
-    height: 400px;
+    height: 460px;
     margin-top: 40px;
     margin-left: 40px;
     border-radius: 10px;
@@ -268,8 +272,12 @@ section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.carte h1 {
-    padding-top: 5px;
+.product-label {
+    margin:none;
+}
+
+.product-text {
+    margin:none;
 }
 
 .carte p {
@@ -280,6 +288,7 @@ section {
 .carte img {
     width:150px;
     height: 150px;
+    margin: none;
 }
 
 .détail-article {
@@ -290,16 +299,23 @@ section {
     justify-content: center;
 }
 
-.choix-qté {
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    justify-content:center;
-    
+.product-unit {
+    margin:none;
 }
 
-.choix-qté img {
-    margin-top: 20px; 
+.product-price {
+    margin:none;
+}
+
+.product-order {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content:center;
+}
+
+.product-order img {
+    margin-top: 10px; 
 }
 
 #texte-qté {
@@ -313,23 +329,97 @@ section {
     text-align: center;
 }
 
-.choix-qté input {
+.order-quantity {
     width:20%;
     height: 5%;
+    margin-left: 10px;
     border-radius: 5px;
     border-width: 1px;
 }
 
-#bouton-cde {
+.bouton-cde {
+    width:100px;
     margin-left: 10px;
     border-radius: 5px;
     border-width: 1px;
     color:white;
     background-color: black;
 }
-/* <!-- insertion CSS Guillaume pour test sur partie sucré "ai changé l'id du compte user juste pour indiquer la répartition des pages--> */
-/* <!-- ai changé l'id du compte user juste pour indiquer la répartition des pages--> */
+
+.section-gestion{
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.menu-gestion {
+    justify-content: center;
+    align-items: center;
+}
+
+.modif-stock {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
 
 
+.tab-gestion th {
+    height: 30px;
+    background-color: rgb(109, 192, 109);
+    padding-left: 50px;
+    padding-right: 50px;   
+}
 
- 
+.tab-gestion td {
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+
+.bouton-gestion {
+    margin:5px;
+    width: 80px;
+}
+
+#Qté-stock {
+    margin:5px;
+}
+
+ /*A modifier pour l'adapter à la partie panier et ajouter la partie responsive- GKO*/ 
+
+ .section-gestion{
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.menu-gestion {
+    justify-content: center;
+    align-items: center;
+}
+
+.modif-stock {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tab-gestion th {
+    height: 30px;
+    background-color: rgb(109, 192, 109);
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+
+.tab-gestion td {
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+
