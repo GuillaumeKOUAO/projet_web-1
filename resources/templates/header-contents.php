@@ -53,9 +53,19 @@ defined("CATEGORY_MENU") || define("CATEGORY_MENU", array(
             </p>
         </div>
     </div>
-    <form id="recherche">
-        <input id="searchbar" type="text" placeholder="Rechercher un produit...">
-        <a href="./recherche.html"><button id="bouton-recherche" type="button">Rechercher</button></a>
+    <form id="recherche" method="get">
+        <input 
+            id="searchbar" 
+            type="text" 
+            placeholder="Rechercher un produit..."
+            minlength="2"
+            autocomplete="off"
+            required />
+        <input
+            id="bouton-recherche"
+            type="submit"
+            title="Chercher un produit dans la boutique"
+            value="Rechercher"/>
     </form>
     <div id="toolbar2">  
         <?php if (isset($selected)) {

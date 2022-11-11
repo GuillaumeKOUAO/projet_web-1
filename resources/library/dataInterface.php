@@ -43,10 +43,9 @@ defined("ALL_PRODUCTS") || define("ALL_PRODUCTS", array(
     array('label'=>'Sauce soja bio (15cl)','unit'=>'pièce','stock'=>30,'price'=>11.75,'image'=>'Sauce soja bio.png','text'=>'Envie de sushis ? Accompagnez-les de notre sauce soja bio !'),
     array('label'=>'Vins du monde (75cl)','unit'=>'pièce','stock'=>30,'price'=>18.50,'image'=>'vins du monde.png','text'=>'Un vin rouge intense et fruité, élevé en fûts de chêne français !'),
     array('label'=>'Cornichons (300g)','unit'=>'pièce','stock'=>30,'price'=>8.50,'image'=>'cornichons.png','text'=>'Découvrez nos cornichons, croquants et d\'\une belle couleur verte. Ils viennent tout droit de l\'\Aveyron!'),
-
 ));
 
-function findAllProducts():  array {
+function findAllProducts() {
     return ALL_PRODUCTS;
 }
 
