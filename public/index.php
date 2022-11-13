@@ -17,16 +17,12 @@
 <body>
 <?php renderTemplate('header-contents.php', 
     array('selected' => 'Boutique',
-    ));
+   ));
 ?>
 <?php $selectedProducts = findAllProducts(); ?> 
-<div class="catalog">
-    <div class="carte">
         <?php foreach ($selectedProducts as $product) {
             renderTemplate('catalog.php', $product);
         }
         ?>
-    </div>
-</div>
 </body>
 </html>

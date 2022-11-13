@@ -35,14 +35,14 @@ defined("ALL_PRODUCTS") || define("ALL_PRODUCTS", array(
     array('label'=>'Jus de Raison bio','unit'=>'L','stock'=>30,'price'=>3.18,'image'=>'jus de raisin bio.png','text'=>'Avec notre houmous, partez en Méditerrannée sans voyager !'),
     array('label'=>'Lentilles','unit'=>'kg','stock'=>30,'price'=>4.90,'image'=>'lentilles.png','text'=>'Découvrez nos lentilles vertes de France !'),
     array('label'=>'Limonade artisanale (75cl)','unit'=>'pièce','stock'=>30,'price'=>3.50,'image'=>'limonade artisanale.png','text'=>'Boisson équilibrée au goût de citron vert. À consommer frais !'),
-    array('label'=>'Miel (200g)','unit'=>'pièce','stock'=>30,'price'=>6.50,'image'=>'miel.png','text'=>'Flattez vos papilles et savourez notre gamme de miels artisanaux en promotion jusqu\'\au 31 janvier 2023'),
+    array('label'=>'Miel (200g)','unit'=>'pièce','stock'=>30,'price'=>6.50,'image'=>'miel.png','text'=>'Flattez vos papilles et savourez notre gamme de miels artisanaux en promotion jusqu\'au 31 janvier 2023'),
     array('label'=>'Panier régional','unit'=>'pièce','stock'=>30,'price'=>30,'image'=>'panier.png','text'=>'Les fêtes approchent, pensez à vos proches ! Voyagez dans notre gamme de paniers gourmands régionaux'),
-    array('label'=>'Pâte de tandoori (250g)','unit'=>'pièce','stock'=>30,'price'=>8.80,'image'=>'pate de tandoori.png','text'=>'Un mélange d\'\épices, classique de la cuisin indienne'),
-    array('label'=>'Pâte à tartiner (240g)','unit'=>'pièce','stock'=>30,'price'=>7.20,'image'=>'pates à tartiner.png','text'=>'Comme un feu d\'\artifice en bouche !'),
+    array('label'=>'Pâte de tandoori (250g)','unit'=>'pièce','stock'=>30,'price'=>8.80,'image'=>'pate de tandoori.png','text'=>'Un mélange d\'épices, classique de la cuisin indienne'),
+    array('label'=>'Pâte à tartiner (240g)','unit'=>'pièce','stock'=>30,'price'=>7.20,'image'=>'pates à tartiner.png','text'=>'Comme un feu d\'artifice en bouche !'),
     array('label'=>'Pois','unit'=>'kg','stock'=>30,'price'=>3.40,'image'=>'pois.png','text'=>'Notre meilleure vente. Un produit de poids !'),
     array('label'=>'Sauce soja bio (15cl)','unit'=>'pièce','stock'=>30,'price'=>11.75,'image'=>'Sauce soja bio.png','text'=>'Envie de sushis ? Accompagnez-les de notre sauce soja bio !'),
     array('label'=>'Vins du monde (75cl)','unit'=>'pièce','stock'=>30,'price'=>18.50,'image'=>'vins du monde.png','text'=>'Un vin rouge intense et fruité, élevé en fûts de chêne français !'),
-    array('label'=>'Cornichons (300g)','unit'=>'pièce','stock'=>30,'price'=>8.50,'image'=>'cornichons.png','text'=>'Découvrez nos cornichons, croquants et d\'\une belle couleur verte. Ils viennent tout droit de l\'\Aveyron!'),
+    array('label'=>'Cornichons (300g)','unit'=>'pièce','stock'=>30,'price'=>8.50,'image'=>'cornichons.png','text'=>'Découvrez nos cornichons, croquants et d\'une belle couleur verte. Ils viennent tout droit de l\'Aveyron!'),
 
 ));
 
