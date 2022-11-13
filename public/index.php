@@ -20,7 +20,7 @@
     ));
 ?>
 <?php $selectedProducts = findAllProducts(); ?> 
-<div id="catalog">
+<div class="catalog">
     <div class="carte">
         <?php foreach ($selectedProducts as $product) {
             renderTemplate('catalog.php', $product);
@@ -28,6 +28,5 @@
         ?>
     </div>
 </div>
-
 </body>
 </html>

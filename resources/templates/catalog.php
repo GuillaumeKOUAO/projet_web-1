@@ -12,7 +12,7 @@ $altImage= 'Photo de ' . strtolower($label);
 ?>
 
 
-<div id="catalog">
+<div class="catalog">
     <div class="carte"> 
         <h1 class ="product-label"><?= $label ?></h1>
         <p class = "product-text"><?= $text ?></p>
@@ -22,9 +22,9 @@ $altImage= 'Photo de ' . strtolower($label);
         <p class = "product-stock">En stock : <?= $stock ?></p>
         <form class="product-order">
             <label for="<?= 'order' . $label ?>">Qté</label>
-            <input class="order-quantity" type="number" id="<?= 'order' . $label ?>"/>
-            <input type = submit class ="bouton-cde" title="Commander" value="Commander" min value=0 max=20/>
+            <input class="order-quantity" type="number" min =0 max=20 id="<?= 'order' . $label ?>"/>
+            <input type = submit class ="bouton-cde" title="Commander" value="Commander" />
         </form>
-    </div>  
+    </div>      
 </div>
 

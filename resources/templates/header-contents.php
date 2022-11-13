@@ -42,6 +42,7 @@ defined("CATEGORY_MENU") || define("CATEGORY_MENU", array(
                 </ul>
             </nav>
         </div>
+        <img id="mon-panier" class="toolbar-icon" src="./icons/monpanier.png" alt="Mon panier"/>
         <p id="user">Benoît Jézéquel</p>
         <img id="login-logout" class="toolbar-icon" src="./icons/connexion.png" alt="Se connecter/S'inscrire"/>
     </div>

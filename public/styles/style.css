@@ -113,18 +113,13 @@ body {
     font-weight: bold;
 }
 
-.space-toolbar1 {
-    width:30px;
-}
-
 nav a:link {
     text-decoration: none;
 }
 
-#panier {
+#mon-panier {
     height: 30px;
     width: 30px;
-    padding-left: 50px;
     padding-right: 50px;
 }
 
@@ -136,61 +131,19 @@ nav a:link {
     text-align: center;
 }
 
-#login-out {
+#login-logout {
     height: 40px;
     width: 40px;
     margin-left: 5px;
     padding-right: 20px;
 }
 
-
-
 #toolbar2 {
    padding-right: 25px;
    display: flex;
    list-style-type: none;
-   align-items: center;
    justify-content: center;
-}
-
-
-.menu-produits {
-    width: 160px;
-    height: 35px;
-    margin-left: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    font-size: 1em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    text-align: center;
-    background-color: rgb(87, 159, 159);
-    border-style: none;
-    box-shadow: 2px 2px 1px rgb(70, 60, 60);
-}
-
-.space-toolbar2 {
-    width: 70px;
-}
-
-.menu-produits:link {
-    text-decoration: none;
-}
-
-.menu-produits:visited {
-    color:rgb(43, 41, 41)
-}
-
-.menu-produits:hover {
-    color: antiquewhite;
-}
-
-.menu-produits:focus {
-    font-weight: bold;
-}
-
-.menu-produits:active {
-    font-weight: bold;
+   text-align: center;
 }
 
 #recherche {
@@ -219,6 +172,41 @@ nav a:link {
     border-radius: 10px;border-style: none;
     color:antiquewhite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-produits {
+    width: 160px;
+    height: 35px;
+    margin:20px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(87, 159, 159);
+    border-style: none;
+    box-shadow: 2px 2px 1px rgb(70, 60, 60);
+}
+
+.menu-produits:link {
+    text-decoration: none;
+}
+
+.menu-produits:visited {
+    color:rgb(43, 41, 41)
+}
+
+.menu-produits:hover {
+    color: antiquewhite;
+}
+
+.menu-produits:focus {
+    font-weight: bold;
+}
+
+.menu-produits:active {
+    font-weight: bold;
 }
 
 .shop-articles {
@@ -251,21 +239,14 @@ nav a:link {
     margin-top: 15px;
 }
 
-section { 
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#catalog {
-    display: flex;
-    width:100%;
+.catalog {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .carte {
-    display:block;
-    width: 250px;
+    width: 350px;
     height: 460px;
     margin-top: 40px;
     margin-left: 40px;
@@ -278,7 +259,8 @@ section {
 }
 
 .product-label {
-    margin:none;
+    margin-top:10px;
+    font-size: 25px;
 }
 
 .product-text {
