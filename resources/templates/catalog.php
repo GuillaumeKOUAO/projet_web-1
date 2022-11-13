@@ -23,7 +23,7 @@ $altImage= 'Photo de ' . strtolower($label);
         <form class="product-order">
             <label for="<?= 'order' . $label ?>">Qté</label>
             <input class="order-quantity" type="number" id="<?= 'order' . $label ?>"/>
-            <input type = submit class ="bouton-cde" title="Commander" value="Commander"/>
+            <input type = submit class ="bouton-cde" title="Commander" value="Commander" min value=0 max=20/>
         </form>
     </div>  
 </div>

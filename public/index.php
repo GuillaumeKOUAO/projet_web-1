@@ -15,7 +15,10 @@
 ?>
 
 <body>
-<?php renderTemplate('header-contents.php', array('selected' => 'Boutique')); ?>
+<?php renderTemplate('header-contents.php', 
+    array('selected' => 'Boutique',
+    ));
+?>
 <?php $selectedProducts = findAllProducts(); ?> 
 <div id="catalog">
     <div class="carte">
