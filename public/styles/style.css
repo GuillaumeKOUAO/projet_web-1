@@ -5,9 +5,8 @@
   }
 
 body {
-    
     display: flex;
-    flex-direction: column;
+    flex-wrap:wrap;
     min-height: 100vh;
     max-width: 100vw;
     margin: unset;
@@ -15,6 +14,10 @@ body {
     padding-right: 10px;
     padding-bottom: 10px;
     background: rgb(234, 227, 227);
+}
+
+header {
+    width:100%;
 }
 
 #sous-header1 {
@@ -97,7 +100,7 @@ body {
 }
 
 #main-menu li a:visited {
-    color:rgb(43, 41, 41)
+    color:rgb(43, 41, 41);
 }
 
 #main-menu li a:hover {
@@ -194,7 +197,7 @@ nav a:link {
 }
 
 .menu-produits:visited {
-    color:rgb(43, 41, 41)
+    color:rgb(43, 41, 41);
 }
 
 .menu-produits:hover {
@@ -241,12 +244,10 @@ nav a:link {
 
 .catalog {
     display:flex;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 .carte {
-    width: 350px;
+    width: 260px;
     height: 460px;
     margin-top: 40px;
     margin-left: 40px;
@@ -260,7 +261,9 @@ nav a:link {
 
 .product-label {
     margin-top:10px;
-    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
 }
 
 .product-text {
@@ -377,7 +380,7 @@ nav a:link {
 
  /*A modifier pour l'adapter à la partie panier et ajouter la partie responsive- GKO*/ 
 
- .section-gestion{
+.section-gestion{
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }

@@ -1,6 +1,7 @@
 <?php
     require_once("../resources/config.php");
     require_once(LIBRARY_PATH . "/templateRenderer.php");
+    require_once(LIBRARY_PATH . "/dataInterface.php");
     
     
 ?>
@@ -16,3 +17,4 @@
 
 <body>
 <?php renderTemplate('header-contents.php', array('selected' => 'Boutique')); ?>
+

@@ -11,7 +11,6 @@ $image = IMAGES_DIR . '/' . $image;
 $altImage= 'Photo de ' . strtolower($label);
 ?>
 
-
 <div class="catalog">
     <div class="carte"> 
         <h1 class ="product-label"><?= $label ?></h1>
@@ -27,4 +26,5 @@ $altImage= 'Photo de ' . strtolower($label);
         </form>
     </div>      
 </div>
+
 
